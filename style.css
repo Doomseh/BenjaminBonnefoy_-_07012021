@@ -1,6 +1,6 @@
 #container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 body {
@@ -35,7 +35,7 @@ nav {
 }
 
 nav a {
-    padding: 40px 30px;
+    padding: 40px 40px;
     text-decoration: none;
     color: black;
 }
@@ -48,4 +48,28 @@ nav a:hover {
 #compte {
     font-weight: bold;
     color: #0065FC;
+}
+
+/* CSS Footer */
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer h2 {
+    padding-left: 50px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+footer li {
+    list-style: none;
+    padding: 10px 10px;
 }
