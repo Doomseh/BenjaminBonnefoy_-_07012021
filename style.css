@@ -32,6 +32,7 @@ header {
 #logoImg {
     height: 45px;
     width: 100px;
+    margin-left: 5px;
 }
 
 nav {
@@ -68,7 +69,7 @@ footer div {
     width: 100%;
 }
 
-footer h2 {
+footer h3 {
     padding-left: 50px;
     text-align: left;
     font-size: 1.2em;
@@ -76,15 +77,14 @@ footer h2 {
 
 footer li {
     list-style: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
 }
 
 /* CSS recherche */
 
 #titre h1 {
     font-size: 1.3em;
-    margin-bottom: 0px;
-    margin-left: 5px;
+    margin: 0px 0px 0px 5px
 }
 
 #titre p {
@@ -147,6 +147,7 @@ footer li {
 #filtres {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 15px 0px;
 }
 
@@ -194,4 +195,113 @@ footer li {
     padding: 13px 15px;
 }
 
+/* CSS Activités */
 
+#activites {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.activites div {
+    width: 300px;
+    height: 400px;
+}
+
+.activites h3 {
+    height: 5%;
+    color: black;
+    font-size: 1em;
+    border-radius: 0 0 20px 20px;
+    border: 0px solid;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 1px 1px 9px 0px lightgray
+}
+
+.activites a {
+    text-decoration: none;
+}
+
+.activites article {
+    border-radius: 40px 40px 0 0;
+}
+
+.actun {
+    margin-right: 20px;
+}
+
+.actdeux, .acttrois {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.actquatre {
+    margin-left: 20px;
+}
+
+#port {
+    background-image: url(images/vieux-port.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90%;
+    zoom: 0.4;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
+
+#pomegues {
+    background-image: url(images/pomegues.jpg);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    height: 42%;
+    zoom: 0.8;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
+
+#pomegues ~ h3 {
+    margin-bottom: 40px;
+}
+
+#frioul {
+    background-image: url(images/frioul.jpg);
+    background-position: 40% 30%;
+    background-repeat: no-repeat;
+    height: 25%;
+    zoom: 0.5;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
+
+
+#calanques {
+    background-image: url(images/calanques.jpg);
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    height: 90%;
+    zoom: 0.6;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
+
+#garde {
+    background-image: url(images/notre-dame-garde.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 32%;
+    zoom: 0.5;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
+
+#garde ~ h3 {
+    margin-bottom: 40px;
+}
+
+#longchamp {
+    background-image: url(images/longchamp.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    height: 35%;
+    zoom: 0.3;
+    border-radius: 70px 70px 0 0;
+    box-shadow: 0px 0px 9px 0px lightgray
+}
