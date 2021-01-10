@@ -315,8 +315,9 @@ main h2 {
 
 #resultat {
     display: flex;
-    height: 600px;
+    height: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #hebergements {
@@ -356,11 +357,12 @@ main h2 {
 
 #annonces i {
     font-size: 0.7em;
+    color: #0065FC;
 }
 
 #annonces article {
-    height: 110px;
     border-radius: 20px 20px 0px 0px;
+    height: 63%;
 }
 
 #resultat a {
@@ -379,5 +381,47 @@ main h2 {
 
 #cannebiere {
     background-image: url(images/cannebiere.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
+#port {
+    background-image: url(images/hotelport.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mouettes {
+    background-image: url(images/mouettes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mer {
+    background-image: url(images/hotel-mer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#panier {
+    background-image: url(images/Lepanier.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#amina {
+    background-image: url(images/Amina.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hebergements h4 {
+    font-size: 1.1em;
+    margin: 25px 0px 40px 20px;
+}
