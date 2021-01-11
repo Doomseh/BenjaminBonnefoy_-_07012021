@@ -331,11 +331,11 @@ main h2 {
     width: 820px;
     margin-right: 20px;
     border-radius: 20px;
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 #hebergements h2 {
-    margin: 30px 0px 5px 20px;
+    margin: 30px 0px 5px 10px;
     font-weight: 800;
 }
 
@@ -431,7 +431,7 @@ main h2 {
 #hebergements h4 {
     font-size: 1.1em;
     font-weight: 800;
-    margin: 25px 0px 40px 20px;
+    margin: 25px 0px 40px 15px;
 }
 
 /* CSS Populaires */
@@ -441,6 +441,7 @@ main h2 {
     width: 380px;
     margin-left: 20px;
     border-radius: 20px;
+    padding: 5px 25px;
 }
 
 #ouvrir {
@@ -456,7 +457,7 @@ main h2 {
 }
 
 #populaires h2 {
-    margin: 30px 0px 5px 35px;
+    margin: 30px 0px 5px 5px;
     font-size: 1.2em;
     font-weight: 800;
 }
@@ -465,12 +466,11 @@ main h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 #populaires a {   
     border-radius: 20px;
-    width: 280px;
+    width: 330px;
     height: 130px;
     margin: 15px 0px;
 }
@@ -501,7 +501,7 @@ main h2 {
 }
 
 .details {
-    width: 60%;
+    width: 55%;
     padding: 5px 25px 0px 5px;
 }
 
