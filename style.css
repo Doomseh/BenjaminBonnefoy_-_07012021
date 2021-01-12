@@ -525,3 +525,106 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Media Queries Tablette */
+
+@media screen and (max-width: 1050px) {
+    #resultat {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+        /* CSS Populaires */ 
+
+    #populaires {
+        width: auto;
+        margin: 0px 0px 20px 0px;
+    }
+
+    #populaires h2 {
+        font-size: 1.3em;
+    }
+
+    #best {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #best p {
+        margin: 5px 0px 5px 10px;
+    }
+
+    #best a {   
+        border-radius: 20px;
+        width: 220px;
+        height: 180px;
+        margin: 15px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best-img {
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        height: 63%;
+    }
+
+    .details {
+        height: 37%;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #change p {
+        float: left;
+        margin-right: 10px;
+    }
+
+    #change i {
+        margin-top: 1px;
+    } 
+
+    #hebergements {
+        width: auto;
+        margin-right: 0px;
+    }   
+
+       /* CSS Activités */
+
+    .activites {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .actun, .actdeux {
+        margin-bottom: 50px;
+    }
+
+    .acttrois {
+        margin-left: 0px;
+    }
+
+    .actdeux {
+        margin-right: 0px;
+    }
+
+    .actun, .actdeux, .acttrois, .actquatre {
+        width: 300px;
+    }
+
+    #pomegues {
+        background-image: url(images/pomegues-medium.jpg);
+        background-position: 50% 45%;
+        zoom: 0.5;
+    }
+
+    #garde {
+        background-image: url(images/notre-dame-garde-medium.jpg);
+        background-position: top;
+        zoom: 0.3;
+    }
+
+}
