@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 
 /* CSS header */
@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0px 0px;
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 
 #logo {
@@ -332,10 +332,10 @@ main h2 {
 
 #hebergements {
     background-color: #F2F2F2;
-    width: 70%;
+    width: 75%;
     margin-right: 20px;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 #hebergements h2 {
@@ -385,9 +385,9 @@ main h2 {
 
 #hebergements a {   
     border-radius: 20px;
-    width: 250px;
-    height: 200px;
-    margin: 15px 10px;
+    width: 25%;
+    height: 180px;
+    margin: 15px 0px;
 }
 
 #cannebiere {
@@ -442,7 +442,7 @@ main h2 {
 
 #populaires {
     background-color: #F2F2F2;
-    width: 30%;
+    width: 25%;
     min-width: 275px;
     margin-left: 20px;
     border-radius: 20px;
@@ -458,7 +458,6 @@ main h2 {
 
 #ouvrir i {
     font-size: 1.5em;
-    margin-right: 40px;
     margin-top: 25px;
 }
 
@@ -534,7 +533,7 @@ main h2 {
 
 /* Media Queries Tablette */
 
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1215px) {
 
     main {
         padding: 0px 50px;
