@@ -25,7 +25,7 @@
         <!--Main de la page-->
         <main>
             <!--Fonction de recherche-->
-            <section id="recherche">
+            <section>
                 <div id="titre">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
@@ -40,7 +40,7 @@
                 <!--Filtres de recherche-->
                 <div id="filtres">
                     <h2>Filtres</h2>
-                    <div id="economie">
+                    <div>
                         <i class="fas fa-money-bill-wave"></i>
                         <a href="#">Économique</a>
                     </div>
@@ -48,11 +48,11 @@
                         <i class="fas fa-child"></i>
                         <a href="#">Familial</a>
                     </div>
-                    <div id="coeur">
+                    <div>
                         <i class="fas fa-heart"></i>
                         <a href="#">Romantique</a>
                     </div>
-                    <div id="aninaux">
+                    <div>
                         <i class="fas fa-dog"></i>
                         <a href="#">Animaux autorisés</a>
                     </div>
@@ -71,42 +71,42 @@
                     <section id="annonces">
                         <!--Article Auberge la Cannebière-->
                         <a href="#">
-                            <article id="cannebiere"></article> 
+                            <div class="annonces-img" id="cannebiere"></div> 
                             <h3>Auberge la Cannebière</h3>
                             <p>Nuit à partir de <strong>25€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: #F2F2F2;"></i></div>
                         </a>
                         <!--Article Hôtel du port-->
                         <a href="#">
-                            <article id="port"></article>
+                            <div class="annonces-img" id="port"></div>
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de <strong>52€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </a>
                         <!--Article Hôtel Les mouettes-->
                         <a href="#">
-                            <article id="mouettes"></article>
+                            <div class="annonces-img" id="mouettes"></div>
                             <h3>Hôtel Les mouettes</h3>
                             <p>Nuit à partir de <strong>76€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: #F2F2F2;"></i></div>
                         </a>
                         <!--Article Hôtel de la mer-->
                         <a href="#">
-                            <article id="mer"></article>
+                            <div class="annonces-img" id="mer"></div>
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de <strong>46€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: #F2F2F2;"></i><i class="fas fa-star" style="color: #F2F2F2;"></i></div>
                         </a>
                         <!--Article Auberge Le Panier-->
                         <a href="#">
-                            <article id="panier"></article>
+                            <div class="annonces-img" id="panier"></div>
                             <h3>Auberge Le Panier</h3>
                             <p>Nuit à partir de <strong>23€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: #F2F2F2;"></i></div>
                         </a>
                         <!--Article Hôtel chez Amina-->
                         <a href="#">
-                            <article id="amina"></article>
+                            <div class="annonces-img" id="amina"></div>
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de <strong>96€</strong></p>
                             <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
@@ -123,7 +123,7 @@
                     <section id="best">
                         <!--Article Hôtel Le Soleil du matin-->
                         <a href="#">
-                            <article id="soleil"></article>
+                            <div class="best-img" id="soleil"></div>
                             <div class="details">
                                 <h3>Hôtel Le soleil du matin</h3>
                                 <p>Nuit à partir de <strong>128€</strong></p>
@@ -132,7 +132,7 @@
                         </a>
                         <!--Article Au cœur de l'eau Chambres d'hôtes-->
                         <a href="#">
-                            <article id="chambres"></article>
+                            <div class="best-img" id="chambres"></div>
                             <div class="details">
                                 <h3>Au cœur de l'eau Chambres d'hôtes</h3>
                                 <p>Nuit à partir de <strong>71€</strong></p>
@@ -141,7 +141,7 @@
                         </a>
                         <!--Article Hôtel Tout bleu et Blanc-->
                         <a href="#">
-                            <article id="bleu"></article>
+                            <div class="best-img" id="bleu"></div>
                             <div class="details">
                                 <h3>Hôtel Tout bleu et Blanc</h3>
                                 <p>Nuit à partir de <strong>68€</strong></p>
@@ -155,24 +155,24 @@
             <h2>Activités à Marseille</h2>
             <section id="activites" class="activites">
                 <div class="actun">
-                    <a href="#"><article id="vieux"></article><h3>Vieux Port</h3></a>
+                    <a href="#"><div class="article" id="vieux"></div><h3>Vieux Port</h3></a>
                 </div>    
                 <div class="actdeux">
-                    <a href="#"><article id="pomegues"></article><h3>Fort de Pomègues</h3></a>
-                    <a href="#"><article id="frioul"></article><h3>Îles de Frioul</h3></a>
+                    <a href="#"><div class="article" id="pomegues"></div><h3>Fort de Pomègues</h3></a>
+                    <a href="#"><div class="article" id="frioul"></div><h3>Îles de Frioul</h3></a>
                 </div>
                 <div class="acttrois">
-                    <a href="#"><article id="calanques"></article><h3>Parc National des Calanques</h3></a>
+                    <a href="#"><div class="article" id="calanques"></div><h3>Parc National des Calanques</h3></a>
                 </div>    
                 <div class="actquatre">
-                    <a href="#"><article id="garde"></article><h3>Notre-Dame-de-la-Garde</h3></a>
-                    <a href="#"><article id="longchamp"></article><h3>Parc Longchamp</h3></a>
+                    <a href="#"><div class="article" id="garde"></div><h3>Notre-Dame-de-la-Garde</h3></a>
+                    <a href="#"><div class="article" id="longchamp"></div><h3>Parc Longchamp</h3></a>
                 </div>
             </section>
         </main>   
         <!--Footer de la page-->   
         <footer>
-            <div id="apropos">
+            <div>
                 <h3>A propos</h3>
                 <ul>
                     <li>Fonctionnement du site</li>
@@ -180,14 +180,14 @@
                     <li>Données et confidentialité</li>
                 </ul>
             </div>
-            <div id="hotel">
+            <div>
                 <h3>Nos hébergements</h3>
                 <ul>
                     <li>Charte qualité</li>
                     <li>Soumettre votre hôtel</li>
                 </ul>
             </div>
-            <div id="assistance">
+            <div>
                 <h3>Assistance</h3>
                 <ul>
                     <li>Centre d'aide</li>
