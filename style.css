@@ -1,6 +1,5 @@
 #container {
     width: 100%;
-    max-width: 1300px;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 }
 
 main {
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
 
 /* CSS header */
@@ -21,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0px 0px;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
 
 #logo {
@@ -209,8 +208,8 @@ footer li {
 }
 
 .actun, .actdeux, .acttrois, .actquatre {
-    width: 300px;
-    height: 400px;
+    width: 25%;
+    height: 500px;
 }
 
 .activites h3 {
@@ -255,6 +254,7 @@ main h2 {
     background-image: url(images/vieux-port.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 90%;
     zoom: 0.4;
     border-radius: 50px 50px 0 0;
@@ -265,6 +265,7 @@ main h2 {
     background-image: url(images/pomegues.jpg);
     background-position: 50% 40%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 42%;
     zoom: 0.8;
     border-radius: 30px 30px 0 0;
@@ -279,9 +280,9 @@ main h2 {
     background-image: url(images/frioul.jpg);
     background-position: 40% 30%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 25%;
-    zoom: 0.5;
-    border-radius: 40px 40px 0 0;
+    border-radius: 20px 20px 0 0;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -299,6 +300,7 @@ main h2 {
     background-image: url(images/notre-dame-garde.jpg);
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 32%;
     zoom: 0.5;
     box-shadow: 0px 0px 9px 0px lightgray
@@ -312,6 +314,7 @@ main h2 {
     background-image: url(images/longchamp.jpg);
     background-position: 50% 30%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 35%;
     zoom: 0.3;
     border-radius: 70px 70px 0 0;
@@ -329,14 +332,14 @@ main h2 {
 
 #hebergements {
     background-color: #F2F2F2;
-    width: 820px;
+    width: 70%;
     margin-right: 20px;
     border-radius: 20px;
     padding: 5px 20px;
 }
 
 #hebergements h2 {
-    margin: 30px 0px 5px 10px;
+    margin: 35px 0px 5px 20px;
     font-weight: 800;
 }
 
@@ -347,7 +350,7 @@ main h2 {
 }
 
 #annonces h3 {
-    margin: 5px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;
     font-size: 0.9em;
     font-weight: 800;
 }
@@ -382,9 +385,9 @@ main h2 {
 
 #hebergements a {   
     border-radius: 20px;
-    width: 220px;
-    height: 180px;
-    margin: 15px 0px;
+    width: 250px;
+    height: 200px;
+    margin: 15px 10px;
 }
 
 #cannebiere {
@@ -432,17 +435,19 @@ main h2 {
 #hebergements h4 {
     font-size: 1.1em;
     font-weight: 800;
-    margin: 25px 0px 40px 15px;
+    margin: 25px 0px 40px 20px;
 }
 
 /* CSS Populaires */
 
 #populaires {
     background-color: #F2F2F2;
-    width: 380px;
+    width: 30%;
+    min-width: 275px;
     margin-left: 20px;
     border-radius: 20px;
-    padding: 5px 25px;
+    padding: 5px 35px;
+    padding-right: 40px;
 }
 
 #ouvrir {
@@ -471,7 +476,7 @@ main h2 {
 
 #populaires a {   
     border-radius: 20px;
-    width: 330px;
+    width: 100%;
     height: 130px;
     margin: 15px 0px;
 }
@@ -529,7 +534,16 @@ main h2 {
 
 /* Media Queries Tablette */
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1245px) {
+
+    main {
+        padding: 0px 50px;
+    }
+
+    header {
+        padding: 0px 50px;
+    }
+
     #resultat {
         display: flex;
         flex-direction: column-reverse;
@@ -539,7 +553,7 @@ main h2 {
 
     #populaires {
         width: auto;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 30px 0px;
     }
 
     #populaires h2 {
@@ -592,7 +606,17 @@ main h2 {
         margin-right: 0px;
     }   
 
+    .actun, .actdeux, .acttrois, .actquatre {
+        height: 400px;
+    }
+
+    .activites h3 {
+        padding-bottom: 20px;
+    }
+}
        /* CSS Activités */
+
+@media screen and (max-width: 1050px) {
 
     .activites {
         display: flex;
@@ -649,7 +673,6 @@ main h2 {
         display: flex;
         flex-direction: column;
     }
-
 
     .ancre {
         display: flex;
