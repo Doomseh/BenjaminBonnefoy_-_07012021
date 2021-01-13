@@ -202,7 +202,7 @@ footer li {
 
 /* CSS Activités */
 
-#activites {
+.activites {
     display: flex;
     margin-bottom: 50px;
 }
@@ -445,6 +445,7 @@ main h2 {
     background-color: #F2F2F2;
     width: 25%;
     min-width: 275px;
+    max-height: 590px;
     margin-left: 20px;
     border-radius: 20px;
     padding: 5px 35px;
@@ -488,7 +489,7 @@ main h2 {
 }
 
 #best p {
-    margin: 5px 0px 45px 10px;
+    margin: 5px 0px 0px 10px;
     font-size: 0.8em;
 }
 
@@ -508,7 +509,10 @@ main h2 {
 
 .details {
     width: 55%;
-    padding: 5px 25px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 25px 10px 5px;
 }
 
 #soleil {
@@ -674,7 +678,7 @@ main h2 {
         padding: 0px;
     }
 
-        /* CSS Header */
+        /* CSS Mobiles Header */
 
     header {
         padding: 0px;
@@ -690,12 +694,13 @@ main h2 {
         display: flex;
         justify-content: space-around;
         width: 100%;
-        border-bottom: 3px solid #F2F2F2;
         margin-bottom: 20px;
     }
 
     .ancre a {
-        padding: 20px
+        width: 50%;
+        text-align: center;
+        border-bottom: 3px solid #F2F2F2;
     }
 
     .ancre a:hover {
@@ -712,7 +717,8 @@ main h2 {
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
-        padding: 25px 30px 10px 0px;
+        padding: 25px 0px 10px 0px;
+        margin-right: 30px;
     }
 
     nav a {
@@ -726,13 +732,168 @@ main h2 {
     }
 
 
-      /* CSS Populaires/Hébergements/Activités */
+      /* CSS Mobiles Populaires */
 
     #populaires {
         border-radius: 0;
+        max-height: none;
+        padding: 5px 20px;
     }
+    
+    #ouvrir h2 {
+        font-size: 1.5em;
+    }
+
+    #ouvrir i {
+        font-size: 1.8em;
+    }
+
+    #best a {
+        width: 400px;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .best-img {
+        border-radius: 20px 0px 0px 20px;
+        width: 40%;
+        height: auto;
+    }
+    
+    .details {
+        width: 55%;
+        height: auto;
+        padding: 10px 25px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }  
+
+    #change p {
+        float: none;
+    }
+
+    #best h3 {
+        font-size: 1em;
+    }
+
+    #best p {
+        font-size: 1em;
+    }
+
+    #best i {
+        font-size: 0.9em;
+    }
+
+        /* CSS Mobiles Hebergements */
 
     #hebergements {
         background-color: white;
     }  
+
+    #hebergements h2 {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+
+    #annonces a {
+        width: 400px;
+        height: 200px;
+    }
+
+    #annonces h3 {
+        font-size: 1em;
+    }
+
+    #annonces p {
+        font-size: 0.9em;
+        margin-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #annonces i {
+        font-size: 0.8em;
+    }
+
+    #hebergements h4 {
+        margin-bottom: 0px;
+    }
+
+        /* CSS Mobiles Activités */ 
+
+    #activites {
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .activites div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activites a {
+        width: 400px;
+        height: 200px;
+        margin: 30px 0px;
+    }
+
+    .activites h3 {
+        height: 10%;
+    }
+
+    .actun, .actdeux, .acttrois, .actquatre {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .actun, .acttrois {
+        height: 200px;
+        margin-right: 100px;
+        margin-bottom: 60px;
+    }
+
+    .actdeux, .actquatre {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #pomegues {
+        height: 90%;
+    }
+
+    #frioul {
+        height: 90%;
+    } 
+
+    #longchamp {
+        height: 90%;
+    }
+
+    #garde {
+        height: 90%;
+    }
+
+
+    /* CSS Footer */
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;   
+    } 
+    
 }
+
+
+   
