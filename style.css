@@ -831,7 +831,7 @@ main h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: auto;
+        width: 100%;
     }
 
     .activites div {
@@ -840,9 +840,26 @@ main h2 {
     }
 
     .activites a {
-        width: 400px;
+        width: auto;
+        max-width: 400px;
         height: 200px;
         margin: 30px 0px;
+    }
+
+    .actun a {
+        width: 100%;
+    }
+
+    .actdeux a {
+        width: 100%;
+    }
+
+    .acttrois a {
+        width: 100%;
+    }
+
+    .actquatre a {
+        width: 100%;
     }
 
     .activites h3 {
@@ -853,17 +870,17 @@ main h2 {
         margin: 0px;
         padding: 0px;
         height: auto;
+        align-items: center;
+        width: 80%;
     }
 
     .actun, .acttrois {
         height: 200px;
-        margin-right: 100px;
         margin-bottom: 60px;
     }
 
     .actdeux, .actquatre {
         height: auto;
-        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -871,20 +888,27 @@ main h2 {
 
     #pomegues {
         height: 90%;
+        border-radius: 50px 50px 0px 0px;
     }
 
     #frioul {
         height: 90%;
+        border-radius: 25px 25px 0px 0px;
     } 
 
     #longchamp {
         height: 90%;
+        border-radius: 80px 80px 0px 0px;
     }
 
     #garde {
         height: 90%;
+        border-radius: 80px 80px 0px 0px;
     }
 
+    #port {
+        border-radius: 30px 30px 0px 0px;
+    }
 
     /* CSS Footer */
 
