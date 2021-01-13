@@ -193,6 +193,10 @@ footer li {
     flex-wrap: wrap;
 }
 
+#selection h3 {
+    display: none;
+}
+
 #filtres div:hover {
     background-color: #DEEBFF;
 }
