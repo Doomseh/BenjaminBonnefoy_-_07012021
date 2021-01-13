@@ -126,6 +126,10 @@ footer li {
     cursor: pointer;
 }
 
+#boutonloupe {
+    display: none;
+}
+
 #saisie i {
     display: flex;
     align-items: center;
@@ -179,9 +183,14 @@ footer li {
 #filtres div {
     display: flex;
     align-items: center;
-    margin: 10px 10px;
+    margin: 10px 8px;
     border: 2px #F2F2F2 solid;
     border-radius: 30px;
+}
+
+#selection {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #filtres div:hover {
@@ -538,7 +547,7 @@ main h2 {
 
 /* Media Queries Tablette */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
 
     .actun, .actdeux, .acttrois, .actquatre {
         height: 400px;
@@ -598,7 +607,7 @@ main h2 {
         border-radius: 20px;
         width: 220px;
         height: 180px;
-        margin: 15px 0px;
+        margin: 15px 5px;
         display: flex;
         flex-direction: column;
     }
@@ -612,17 +621,22 @@ main h2 {
     .details {
         height: 37%;
         width: 100%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 5px 0px;
+        position: relative;
     }
 
     #change p {
-        float: left;
+        position: absolute;
+        float: right;
         margin-right: 10px;
+        top: 47%;
+        left: 0;
     }
 
     #change i {
         margin-top: 1px;
     } 
+
 
     #hebergements {
         width: auto;
@@ -672,7 +686,8 @@ main h2 {
 
 /* Media Queries mobiles */
 
-@media screen and (max-width: 770px) {
+
+@media screen and (max-width: 745px) {
 
     main {
         padding: 0px;
@@ -710,7 +725,7 @@ main h2 {
 
     #logo {
         position: absolute;
-        padding: 10px 0px 0px 30px;
+        padding: 10px 0px 0px 10px;
     }
 
     #compte {
@@ -728,16 +743,60 @@ main h2 {
       /* CSS Recherche */
 
     #recherche {
-        padding: 0px 30px;
+        padding: 0px 15px;
     }
 
+    form {
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    form input {
+        width: 80%;
+    }
+
+    form button {
+        width: 20%;   
+        min-width: 45px;
+        max-width: 50px;
+    }
+
+    #bouton {
+        display: none;
+    }
+
+    #boutonloupe {
+        display: inline;
+    }
+
+    #boutonloupe i {
+        background-color: #0065FC;
+        color: white;
+        padding: 0px;
+    }
+
+    #saisie button {
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #info i {
+        margin: 0px;
+    }
 
       /* CSS Mobiles Populaires */
 
     #populaires {
         border-radius: 0;
         max-height: none;
-        padding: 5px 20px;
+        padding: 5px 15px;
+        margin-bottom: 10px;
     }
     
     #ouvrir h2 {
@@ -764,14 +823,16 @@ main h2 {
     .details {
         width: 55%;
         height: auto;
-        padding: 10px 25px 10px 10px;
+        padding: 10px 20px 10px 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }  
 
     #change p {
-        float: none;
+        float: left;
+        top: 35%;
+        left: 4.5%;
     }
 
     #best h3 {
@@ -795,6 +856,7 @@ main h2 {
     #hebergements h2 {
         font-size: 1.5em;
         margin-top: 20px;
+        margin-left: 10px;
     }
 
     #annonces a {
@@ -818,6 +880,7 @@ main h2 {
 
     #hebergements h4 {
         margin-bottom: 0px;
+        margin-left: 10px;
     }
 
         /* CSS Mobiles Activités */ 
@@ -871,7 +934,7 @@ main h2 {
         padding: 0px;
         height: auto;
         align-items: center;
-        width: 80%;
+        width: 90%;
     }
 
     .actun, .acttrois {
@@ -906,8 +969,8 @@ main h2 {
         border-radius: 80px 80px 0px 0px;
     }
 
-    #port {
-        border-radius: 30px 30px 0px 0px;
+    #vieux {
+        border-radius: 60px 60px 0px 0px;
     }
 
     /* CSS Footer */
