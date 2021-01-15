@@ -681,7 +681,7 @@ main h2 {
 /* Media Queries mobiles */
 
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 760px) {
 
     main {
         padding: 0px;
