@@ -122,7 +122,7 @@ footer li {
     font-size: 1em;
     font-weight: 500;
     border-radius: 0 15px 15px 0;
-    border: #0065FC solid;
+    border: none; 
     cursor: pointer;
 }
 
@@ -247,7 +247,7 @@ main h2 {
 }
 
 .article {
-    border-radius: 40px 40px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .actun {
@@ -269,8 +269,6 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
-    zoom: 0.4;
-    border-radius: 50px 50px 0 0;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -280,8 +278,6 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 42%;
-    zoom: 0.8;
-    border-radius: 30px 30px 0 0;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -295,17 +291,16 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 29%;
-    border-radius: 20px 20px 0 0;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
 
 #calanques {
     background-image: url(images/calanques.jpg);
-    background-position: 50% 35%;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 90%;
-    zoom: 0.6;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -315,7 +310,6 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 32%;
-    zoom: 0.5;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -329,8 +323,6 @@ main h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 39%;
-    zoom: 0.3;
-    border-radius: 70px 70px 0 0;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -392,7 +384,7 @@ main h2 {
     text-decoration: none;
     background-color: white;
     color: black;
-    border: 4px solid white;
+    border: 4px solid transparent;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
@@ -549,8 +541,6 @@ main h2 {
     background-size: cover;
 }
 
-/* Media Queries Tablette */
-
 @media screen and (max-width: 1300px) {
 
     .actun, .actdeux, .acttrois, .actquatre {
@@ -569,6 +559,8 @@ main h2 {
         height: 34%;
     }
 }
+
+    /* Media Queries Tablette */
 
 @media screen and (max-width: 1050px) {
 
@@ -678,13 +670,11 @@ main h2 {
     #pomegues {
         background-image: url(images/pomegues-medium.jpg);
         background-position: 50% 45%;
-        zoom: 0.5;
     }
 
     #garde {
         background-image: url(images/notre-dame-garde-medium.jpg);
         background-position: top;
-        zoom: 0.3;
     }
 }
 
@@ -801,6 +791,7 @@ main h2 {
         max-height: none;
         padding: 5px 15px;
         margin-bottom: 10px;
+        min-width: 0px;
     }
     
     #ouvrir h2 {
@@ -814,6 +805,7 @@ main h2 {
     #best a {
         width: 400px;
         height: 150px;
+        min-width: 200px;
         display: flex;
         flex-direction: row;
     }
@@ -836,7 +828,7 @@ main h2 {
     #change p {
         float: left;
         top: 35%;
-        left: 4.5%;
+        left: 5.5%;
     }
 
     #best h3 {
@@ -909,7 +901,7 @@ main h2 {
     .activites a {
         width: auto;
         max-width: 400px;
-        height: 200px;
+        height: 180px;
         margin: 30px 0px;
     }
 
@@ -942,8 +934,7 @@ main h2 {
     }
 
     .actun, .acttrois {
-        height: 200px;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     .actdeux, .actquatre {
@@ -954,28 +945,21 @@ main h2 {
     }
 
     #pomegues {
-        height: 90%;
-        border-radius: 50px 50px 0px 0px;
+        height: 90%; 
     }
 
     #frioul {
         height: 90%;
-        border-radius: 25px 25px 0px 0px;
     } 
 
     #longchamp {
         height: 90%;
-        border-radius: 80px 80px 0px 0px;
     }
 
     #garde {
         height: 90%;
-        border-radius: 80px 80px 0px 0px;
     }
 
-    #vieux {
-        border-radius: 60px 60px 0px 0px;
-    }
 
     /* CSS Footer */
 
@@ -986,5 +970,15 @@ main h2 {
     
 }
 
+@media screen and (max-width: 355px) {
+    #change p {
+        top: 45%;
+    }
+}
 
+@media screen and (max-width: 320px) {
+    #change p {
+        top: 55%;
+    }
+}
    
