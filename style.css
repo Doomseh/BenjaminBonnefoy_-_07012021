@@ -167,20 +167,20 @@ footer li {
     font-weight: 800;
 }
 
-#filtres a {
+#selection a {
     color: black;
     font-weight: 800;
     padding: 10px 15px 10px 12px;
     text-decoration: none;
 }
 
-#filtres a:hover {
+#selection a:hover {
     background-color: #DEEBFF;
     border-radius: 50px;
 }
 
 
-#filtres div {
+#selection div {
     display: flex;
     align-items: center;
     margin: 10px 8px;
@@ -193,11 +193,8 @@ footer li {
     flex-wrap: wrap;
 }
 
-#selection h3 {
-    display: none;
-}
 
-#filtres div:hover {
+#selection div:hover {
     background-color: #DEEBFF;
 }
 
@@ -370,9 +367,16 @@ main h2 {
     display: flex;
 }
 
+.starblue {
+    color: #0065FC;
+}
+
+.stargrey {
+    color: lightgray;
+}
+
 #annonces i {
     font-size: 0.7em;
-    color: #0065FC;
 }
 
 .annonces-img {
@@ -500,7 +504,6 @@ main h2 {
 
 #best i {
     font-size: 0.7em;
-    color: #0065FC;
 }
 
 #best a {
