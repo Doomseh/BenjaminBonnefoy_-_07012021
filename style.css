@@ -764,7 +764,9 @@ main h2 {
     }
 
     #boutonloupe {
-        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #boutonloupe i {
