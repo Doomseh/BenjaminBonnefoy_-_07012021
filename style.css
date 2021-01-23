@@ -261,19 +261,11 @@ main h2 {
 }
 
 #vieux {
-    background-image: url(images/vieux-port.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 90%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
 #pomegues {
-    background-image: url(images/pomegues.jpg);
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 42%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
@@ -283,29 +275,20 @@ main h2 {
 }
 
 #frioul {
-    background-image: url(images/frioul.jpg);
-    background-position: 40% 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 29%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
+#frioul img {
+    object-position: top;
+}
 
 #calanques {
-    background-image: url(images/calanques.jpg);
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 90%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
 
 #garde {
-    background-image: url(images/notre-dame-garde.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 32%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
@@ -315,10 +298,6 @@ main h2 {
 }
 
 #longchamp {
-    background-image: url(images/longchamp.jpg);
-    background-position: 50% 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 39%;
     box-shadow: 0px 0px 9px 0px lightgray
 }
