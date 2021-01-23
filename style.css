@@ -400,52 +400,11 @@ main h2 {
     margin: 15px 5px;
 }
 
-#cannebiere {
-    background-image: url(images/cannebiere.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#port {
-    background-image: url(images/hotelport.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#mouettes {
-    background-image: url(images/mouettes.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#mer {
-    background-image: url(images/hotel-mer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#panier {
-    background-image: url(images/Lepanier.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#amina {
-    background-image: url(images/Amina.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#hebergements h4 {
-    font-size: 1.1em;
-    font-weight: 800;
-    margin: 25px 0px 40px 20px;
+.img-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 /* CSS Populaires */
@@ -523,25 +482,11 @@ main h2 {
     padding: 5px 25px 10px 5px;
 }
 
-#soleil {
-    background-image: url(images/soleil.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#chambres {
-    background-image: url(images/chambres.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#bleu {
-    background-image: url(images/bleu.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.img-pop {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -615,6 +560,10 @@ main h2 {
         border-radius: 20px 20px 0px 0px;
         width: 100%;
         height: 63%;
+    }
+
+    .img-pop {
+        border-radius: 20px 20px 0px 0px;
     }
 
     .details {
@@ -820,6 +769,10 @@ main h2 {
         width: 40%;
         height: auto;
     }
+
+    .img-pop {
+        border-radius: 20px 0px 0px 20px;
+    }
     
     .details {
         width: 55%;
@@ -833,7 +786,7 @@ main h2 {
     #change p {
         float: left;
         top: 35%;
-        left: 5.5%;
+        left: 4.5%;
     }
 
     #best h3 {
