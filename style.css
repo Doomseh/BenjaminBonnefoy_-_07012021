@@ -598,15 +598,6 @@ main h2 {
         width: 300px;
     }
 
-    #pomegues {
-        background-image: url(images/pomegues-medium.jpg);
-        background-position: 50% 45%;
-    }
-
-    #garde {
-        background-image: url(images/notre-dame-garde-medium.jpg);
-        background-position: top;
-    }
 }
 
 /* Media Queries mobiles */
@@ -897,25 +888,24 @@ main h2 {
         height: 90%;
     }
 
-
     /* CSS Footer */
 
     footer {
         display: flex;
         flex-wrap: wrap;   
-    } 
-    
+    }   
 }
 
 @media screen and (max-width: 355px) {
+
     #change p {
         top: 45%;
     }
 }
 
 @media screen and (max-width: 320px) {
+
     #change p {
         top: 55%;
     }
 }
-   
